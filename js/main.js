@@ -12,7 +12,7 @@ Generates a number between min and max
 function getRandomNumber(lower, upper) {
   
 // Test to make sure lower and upper are numbers
-  if (isNaN(lower) || isNaN(upper) {
+  if (isNaN(lower) || isNaN(upper)) {
       throw new Error('One of the inputed values is not a number');
   }
   
