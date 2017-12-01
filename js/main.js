@@ -2,6 +2,13 @@
 
 console.log(Math.floor(Math.random() * 100) + 1);
 
+//Generate a number between 0 and user input
+
+function randomNumber(upper) {
+  return Math.floor( Math.random() * upper ) + 1;
+}
+
+
 /* More Advanced Generator
 
 Takes user input for range: min and max
